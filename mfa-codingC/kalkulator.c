@@ -1,5 +1,38 @@
 #include <stdio.h>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 void tambah2(int a,int b){
     printf("%d",a+b);
 }
