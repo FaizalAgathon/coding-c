@@ -1,4 +1,8 @@
 # include <stdio.h>
+
+// ----- Percobaan Rumus -----
+
+
 int main(){
     int ss,ls,kl; 
 

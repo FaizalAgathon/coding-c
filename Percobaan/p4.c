@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+// ----- Percobaan Membuat Bentuk ? -----
+
 int main()
 {
     int i,j;

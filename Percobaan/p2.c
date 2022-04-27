@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+// ----- Percobaan Perbandingan -----
+
 int main()
 {
     int x,y,z;

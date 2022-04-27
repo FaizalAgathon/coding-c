@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// ----- Percobaan Kalkulator perkalian 3 angka -----
+
 void kali (int a,int b,int c){
     int hsl;
     hsl = a * b * c;

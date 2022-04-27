@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// ----- Percobaan Sizeof -----
+
 void main(){
     int angka[] = {1,4,2,6,8,3,5};
     int l = sizeof(angka)/sizeof(angka[0]);

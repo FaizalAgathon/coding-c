@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// ----- Percobaan Input dimasukin ke array dan di printf -----
+
 int main(){
 
     int n;

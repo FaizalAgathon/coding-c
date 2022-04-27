@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+// ----- Percobaan char[] -----
+
 int main(){
     char nama [20];
 

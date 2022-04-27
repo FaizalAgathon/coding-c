@@ -1,8 +1,11 @@
 #include <stdio.h>
+
+// ----- Percobaan Nampilin panjang array dan nyebutin isi per index array -----
+
 int main()
 {
-    int nilai_saya[10] = {90, 80, 75, 76, 70, 95, 67};
-    int l = sizeof(nilai_saya)/sizeof(*nilai_saya);
+    int nilai_saya[] = {90, 80, 75, 76, 70, 95, 67};
+    int l = sizeof(nilai_saya)/sizeof(nilai_saya[0]);
 
     puts ("================================");
 
