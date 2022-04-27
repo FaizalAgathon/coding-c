@@ -1,38 +1,5 @@
 #include <stdio.h>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void tambah2(int a,int b){
     printf("%d",a+b);
 }
@@ -53,38 +20,7 @@ int main(){
     tambah2(n1,n2);
     printf("\nHasil = ");
     kali2(n1,n2);
+
+    return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
