@@ -1,25 +1,47 @@
 #include <stdio.h>
 
-void tambah2(int a,int b){
+void tambah(int a,int b){
     printf("%d",a+b);
 }
 
-void kali2(int a,int b){
+void kurang(int a,int b){
+    printf("%d",a-b);
+}
+
+void kali(int a,int b){
     printf("%d",a*b);
+}
+
+void bagi(float a,float b){
+    printf("%.2f",a/b);
 }
 
 int main(){
     int n1,n2;
+    char o;
 
-    printf("angka 1 : ");
-    scanf("%d",&n1);
-    printf("angka 2 : ");
-    scanf("\n%d",&n2);
+    printf("Operasi : ");
+    scanf("%d%c%d",&n1,&o,&n2);
 
-    printf("Hasil = ");
-    tambah2(n1,n2);
-    printf("\nHasil = ");
-    kali2(n1,n2);
+    if (o == '+'){
+        printf("Hasil : ");
+        tambah(n1,n2);
+    }
+
+    else if (o == '-'){
+        printf("Hasil : ");
+        kurang(n1,n2);
+    }
+
+    else if (o == '*'){
+        printf("Hasil : ");
+        kali(n1,n2);
+    }
+
+    else if (o == '/'){
+        printf("Hasil : ");
+        bagi(n1,n2);
+    }
 
     return 0;
 }
